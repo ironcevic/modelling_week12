@@ -1,0 +1,14 @@
+&INPUTPP
+  calculation = 'eps'
+  prefix = 'si'
+  outdir='./'
+/
+
+&ENERGY_GRID
+  smeartype = 'gaussian'
+  intersmear = 0.2
+  wmin = 0.0
+  wmax = 5.0
+  nw = 1000
+  shift = 0.6
+/
