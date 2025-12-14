@@ -1,0 +1,8 @@
+&DOS
+  prefix = 'si'
+  outdir = './'
+  Emin = -8
+  Emax = 20.0
+  DeltaE = 0.05
+  bz_sum = 'tetrahedra_lin'
+/

@@ -1,0 +1,59 @@
+
+     Program BANDS v.7.5 starts on 12Dec2025 at 19:38:54 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       2 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                     2
+
+     MPI processes distributed on     1 nodes
+     8993 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     ./si.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         433     433    139                 5961     5961    1067
+
+     Using Slab Decomposition
+
+     Reading collected, re-writing distributed wavefunctions
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+     high-symmetry point: -1.0000 0.0000 0.0000   x coordinate   1.0000
+     high-symmetry point: -1.0000 0.2500 0.2500   x coordinate   1.3536
+     high-symmetry point: -0.7500 0.7500 0.0000   x coordinate   1.3536
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   2.4142
+     high-symmetry point: -0.5000 0.5000 0.5000   x coordinate   3.2802
+     high-symmetry point: -1.0000 0.5000 0.0000   x coordinate   3.9873
+     high-symmetry point: -1.0000 0.0000 0.0000   x coordinate   4.4873
+
+     Plottable bands (eV) written to file si.bands.dat.gnu
+     Bands written to file si.bands.dat
+
+     BANDS        :      0.73s CPU      0.56s WALL
+
+
+   This run was terminated on:  19:38:55  12Dec2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

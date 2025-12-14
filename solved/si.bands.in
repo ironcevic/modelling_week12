@@ -1,0 +1,8 @@
+ &BANDS
+    prefix      = 'si'    ! name of calculation
+    outdir      = './'
+    filband     = 'si.bands.dat'
+    lsym        = .false.
+ /
+
+ 
